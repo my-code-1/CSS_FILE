@@ -1,0 +1,54 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding:0;
+}
+h3{
+    background-color: bisque;
+    color:white;
+}
+li{ 
+    background-color: blue;
+    color:firebrick;
+    text-align: center;
+}
+#short{
+    color:red;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.player{
+    background-color: blue;
+    text-align: right;
+}
+/* mixed selector */
+p{
+    color:red;
+}
+/* combined selector */
+.yellow,.holud{
+    color:green;
+}
+#four{
+    color:yellow;
+    font-size: 40px;
+}
+.bold{
+    font-size: x-large;
+    text-align: center;
+}
+/* attribute selector */
+input[type="password"]{
+    font-size: 40px;
+    color:red;
+}
+/* span and div tag */
+.css{
+    color:green;
+}
+.blog{
+    background-color:green;
+}
